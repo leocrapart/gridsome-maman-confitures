@@ -4,7 +4,6 @@ module.exports = {
     // purgeLayersByDefault: true,
   },
   purge: [
-    "./src/**/*.vue"
   ],
   theme: {
     extend: {},
