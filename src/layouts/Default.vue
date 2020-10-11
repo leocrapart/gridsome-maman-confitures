@@ -9,7 +9,7 @@
 
       <div>
         
-          <g-link to="/confitures/">
+          <g-link to="/confitures">
           Confitures
         </g-link>
         
@@ -24,11 +24,11 @@
     
     <slot class=""/>
 
-    <g-link to="/A-propos/">
+    <g-link to="/A-propos">
       <footer class="absolute bottom-0 w-full h-10 bg-gray-300 hover:bg-gray-400">
         <div class="mt-2 ml-2 text-center">
           <div class="">
-            <g-link to="/A-propos/">A propos</g-link>
+            A propos
           </div>
         </div>
       </footer>
