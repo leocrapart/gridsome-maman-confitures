@@ -15,7 +15,7 @@
           C'est pourquoi je fais de delicieuses confitures produites avec des fruits direct producteur du Lot et Garonne.
         </div>
         <div class="flex justify-center py-8 ">
-          <g-link to="/confitures/">
+          <g-link to="/confitures">
             <button class="px-4 py-2 bg-gray-300 rounded">Découvrir les confitures</button>
           </g-link>
         </div>
