@@ -1,15 +1,40 @@
 <template>
-  <div>
-    <header>
-      <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
-      <nav>
-        <g-link to="/">Home</g-link>
-        <g-link to="/about/">About</g-link>
-      </nav>
-    </header>
-    <slot/>
+  <div class="relative min-h-screen">
+    <div class="flex justify-between py-4 mx-2 border-b-2">
+      <div>
+        <g-link to="/">
+          Home
+        </g-link>
+      </div>
+
+      <div>
+        
+          <g-link to="/confitures/">
+          Confitures
+        </g-link>
+        
+      </div>
+      <div>
+        <a href="https://facebook.com">Facebook</a>
+      </div>
+      <div>
+        <a href="https://instagram.com">Instagram</a>
+      </div> 
+    </div>
+    
+    <slot class=""/>
+
+    <g-link to="/A-propos/">
+      <footer class="absolute bottom-0 w-full h-10 bg-gray-300 hover:bg-gray-400">
+        <div class="mt-2 ml-2 text-center">
+          <div class="">
+            <g-link to="/A-propos/">A propos</g-link>
+          </div>
+        </div>
+      </footer>
+    </g-link>
+    
+
   </div>
 </template>
 
